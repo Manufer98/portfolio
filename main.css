@@ -396,8 +396,10 @@ nav a:hover {
 
 .intro-social li a:hover,
 .intro-social li a:focus {
-	color: #603e4e;
+	color: #ff0077;
 }
+
+
 
 @media only screen and (max-width:1024px) {
 	.intro-content h1 {
@@ -497,9 +499,9 @@ nav a:hover {
 	align-items: center;
 	
 	gap: 3rem;
-	margin-left: 200px;
+	margin-left: 300px;
 	
-	margin-right: 250px;
+	margin-right: 300px;
 }
 
 .about-content p{
@@ -517,8 +519,17 @@ nav a:hover {
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
-	margin-left:200px;
-	margin-right: 200px;
+	margin-left:300px;
+	margin-right: 300px;
+}
+
+
+
+@media only screen and (max-width:600px) {
+	.row h1{
+		margin-left: 50px;
+		margin-right: 50px;
+	}
 }
 
 @media only screen and (max-width:850px) {
@@ -549,7 +560,7 @@ nav a:hover {
 
 .profiles {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	color: var(--grey);
 	margin-bottom: 100px;
 	
@@ -560,6 +571,8 @@ nav a:hover {
 .profiles h5 {
 	color: var(--black);
 }
+
+
 
 
 .projects {
@@ -723,10 +736,16 @@ nav a:hover {
 
 
 
-.text{
-
+.about-content p{
+	text-align: justify;
 	
 }
+
+.profiles p{
+	text-align: justify;
+
+}
+
 
 .bg{
 	background-color: #686868;
@@ -854,7 +873,7 @@ footer {
 }
 
 .ww{
-	
+	color: white;
 	text-decoration: none;
 	font-size: 18px;
 }
